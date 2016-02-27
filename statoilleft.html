@@ -85,7 +85,9 @@
 
     //read in the GeoJSON. This function is asynchronous so
     // anything that needs the json file should be within
-    d3.json("https://gist.githubusercontent.com/zross/6a31f4ef9e778d94c204/raw/3d9b6a2825e4961f38bafc657ef1e8f611512e7b/points.geojson", function(collection) {
+    // https://github.com/olivierperard/d3test/blob/master/points.geojson
+    // https://gist.githubusercontent.com/zross/6a31f4ef9e778d94c204/raw/3d9b6a2825e4961f38bafc657ef1e8f611512e7b/points.geojson
+    d3.json("https://github.com/olivierperard/d3test/points.geojson", function(collection) {
 
         // this is not needed right now, but for future we may need
         // to implement some filtering. This uses the d3 filter function
